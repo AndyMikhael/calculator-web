@@ -1,0 +1,33 @@
+*{ 
+    background-color: black;
+}
+
+#calculator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh; /*height of the viewport*/
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+#description {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh; /*height of the viewport*/
+    margin-top: -415px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#visit {
+    position: relative;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
